@@ -12,12 +12,39 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-header-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.new-chat a{
+  padding: 14px;
+  font-size: 10px;
+  color: deepskyblue;
+  border: 1px solid;
+  border-color: lightblue;
+  text-decoration: none;
 }
 
 .side-main {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+}
+
+.group-list {
+  padding: 20px 0 40px 0;
+}
+
+.group-list a{
+  color: white;
+  text-decoration: none;
 }
 .chat {
   width: calc(100vw - 300px);
