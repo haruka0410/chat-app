@@ -80,6 +80,7 @@
 }
 
 .chat-messages {
+  overflow: scroll;
   height: calc(100vh - 190px);
   background-color: #fafafa;
   padding: 46px 40px 0;
